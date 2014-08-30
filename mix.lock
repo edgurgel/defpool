@@ -1,0 +1,2 @@
+%{"meck": {:package, "0.8.2"},
+  "pooler": {:git, "git://github.com/seth/pooler.git", "fee0aa40a0b99fadacae349bb6a6924dc2d3fa4a", [tag: "1.1.0"]}}
