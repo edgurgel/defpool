@@ -26,6 +26,7 @@ end
 
 The generated code would be something like this:
 
+```elixir
 defmodule Example do
   def do_something(pid, arg1, arg2) do
     #... original code
@@ -37,8 +38,9 @@ defmodule Example do
     result
   end
 end
+```
 
-As you can see do_something will grab a pid from `pool_group` and call the defined function.
+As you can see `do_something` will grab a pid from `pool_group` and call the defined function.
 The group option should be defined while calling `use Defpool` or :default will be used.
 
 It's important to notice that `defpool` will expect the first argument to be the pid.
